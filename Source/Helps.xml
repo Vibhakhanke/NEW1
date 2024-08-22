@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14090.00"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="14"/>
+    <LastIsnFolder val="0"/>
+  </Header>
+
+  <HelpRepository>
+    <HelpScreens>
+      <Help Type="I" id="1" name="Internal">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="This is internal help-F1"/>
+        </PropertyList>
+      </Help>
+      <Help Type="P" id="2" name="Prompt">
+        <PropertyList model="HELP_PROMPT">
+          <Text id="19" valUnicode="This is prompt help"/>
+        </PropertyList>
+      </Help>
+      <Help Type="T" id="3" name="TooltipDev">
+        <PropertyList model="HELP_TOOLTIP">
+          <Text id="19" valUnicode="Magic XPA"/>
+        </PropertyList>
+      </Help>
+      <Help Type="T" id="7" name="TooltipSupport">
+        <PropertyList model="HELP_TOOLTIP">
+          <Text id="19" valUnicode="Magic XPA and XPI"/>
+        </PropertyList>
+      </Help>
+      <Help Type="I" id="14" name="promptTimer">
+        <PropertyList model="HELP_INTERNAL">
+          <Text id="19" valUnicode="Wait for 5 seconds"/>
+        </PropertyList>
+      </Help>
+    </HelpScreens>
+  </HelpRepository>
+
+</Application>

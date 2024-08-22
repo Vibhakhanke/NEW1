@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <MobileDesignMode Val="N"/>
+
+  <EditProjectMode Val="N"/>
+
+  <DebugMode Val="N"/>
+
+  <RIAExecutionPlatform Val="Desktop"/>
+
+  <WatchListItems>
+    <RestData/>
+  </WatchListItems>
+
+  <ExpandedItems>
+    <Program PrgIsn="140">
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="1"/>
+        <OperationIsn Val="8"/>
+      </ExpandedItem>
+    </Program>
+    <Program PrgIsn="153">
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="4"/>
+      </ExpandedItem>
+    </Program>
+    <Program PrgIsn="128">
+      <ExpandedItem>
+        <TaskIsn Val="8"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="3"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="8"/>
+        <Type Val="4"/>
+        <OperationIsn Val="17"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="8"/>
+        <Type Val="4"/>
+        <OperationIsn Val="21"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="8"/>
+        <Type Val="4"/>
+        <OperationIsn Val="24"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="8"/>
+        <Type Val="4"/>
+        <OperationIsn Val="27"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="10"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="11"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="12"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="13"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="14"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="4"/>
+        <OperationIsn Val="136"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="15"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="4"/>
+        <OperationIsn Val="140"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="4"/>
+        <OperationIsn Val="112"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="4"/>
+        <OperationIsn Val="127"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="4"/>
+        <OperationIsn Val="130"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="4"/>
+        <OperationIsn Val="133"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="9"/>
+      </ExpandedItem>
+    </Program>
+    <Program PrgIsn="183">
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="3"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="4"/>
+        <OperationIsn Val="12"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="4"/>
+        <OperationIsn Val="14"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="4"/>
+        <OperationIsn Val="16"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="4"/>
+        <OperationIsn Val="18"/>
+      </ExpandedItem>
+    </Program>
+    <Program PrgIsn="179">
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="1"/>
+        <OperationIsn Val="95"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="1"/>
+        <OperationIsn Val="27"/>
+      </ExpandedItem>
+    </Program>
+    <Program PrgIsn="196">
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="3"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="4"/>
+      </ExpandedItem>
+      <ExpandedItem>
+        <TaskIsn Val="1"/>
+        <Type Val="2"/>
+        <HandlerIsn Val="5"/>
+      </ExpandedItem>
+    </Program>
+  </ExpandedItems>
+
+  <VisitedTasks>
+    <VisitedTask>
+      <PrgIsn Val="189"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="189"/>
+      <TaskIsn Val="2"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="107"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="140"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="192"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="192"/>
+      <TaskIsn Val="2"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="179"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="128"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="128"/>
+      <TaskIsn Val="8"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="186"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="186"/>
+      <TaskIsn Val="2"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="153"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="182"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="183"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="48"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="64"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="64"/>
+      <TaskIsn Val="2"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="193"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="196"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="195"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="150"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+    <VisitedTask>
+      <PrgIsn Val="171"/>
+      <TaskIsn Val="1"/>
+    </VisitedTask>
+  </VisitedTasks>
+
+</Application>

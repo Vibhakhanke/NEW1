@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14090.00"/>
+    <APPLICATION val="N"/>
+    <WithIsn val="N"/>
+    <WITH_MODELS val="Y"/>
+    <MAIN_PRG_VARS val="0"/>
+    <MAIN_PRG_DSPS val="1"/>
+    <Arguments END="72" START="72"/>
+  </Header>
+
+
+
+<ProgramsRepository>
+<RepositoryProperties>
+</RepositoryProperties>
+<Programs>
+
+<Task MainProgram="N">
+
+  <Header Description="Login_admin">
+    <LastModified _date="738958" _time="66257" date="13/03/2024" time="18:24:17"/>
+    <ExecutionRight/>
+    <Resident val="N"/>
+    <SQL val="N"/>
+    <ReturnValue>
+      <ReturnValueAttr/>
+      <ParametersAttributes/>
+    </ReturnValue>
+    <SqlWhereExist val="N"/>
+    <TaskType val="O"/>
+    <External val="N"/>
+    <Offline val="N"/>
+    <FormType val="N"/>
+    <DotNetObjectExists val="N"/>
+  </Header>
+
+  <Resource>
+    <DB>
+      <DataObject obj="36"/>
+      <Access val="W"/>
+      <Share val="W"/>
+      <Open val="N"/>
+      <Cache val="Y"/>
+      <IdentifyRowModifications val="84"/>
+    </DB>
+    <Columns/>
+  </Resource>
+
+  <Information>
+    <Key>
+      <Column val="1"/>
+      <Mode val="N"/>
+    </Key>
+    <DB obj="36"/>
+    <Sort>
+      <CLS val="A"/>
+    </Sort>
+    <ForceRecordDelete DEL="N"/>
+    <EndTaskCondition val="N"/>
+    <EvaluateEndCondition val="B"/>
+    <InitialMode val="C"/>
+    <Locate Direction="A"/>
+    <Range Direction="A"/>
+    <TaskProperties>
+      <SelectionTable val="N"/>
+      <ConfirmUpdate CNFU="N"/>
+      <ConfirmCancel val="N"/>
+      <ErrorStrategy val="R"/>
+      <LockingStrategy val="M"/>
+      <CacheStrategy val="D"/>
+      <ForceRecordSuffix val="N"/>
+      <TransactionMode val="D"/>
+      <TransactionBegin val="P"/>
+      <PreloadView val="N"/>
+      <AllowEmptyDataview val="Y"/>
+      <KeepCreatedContext val="N"/>
+    </TaskProperties>
+    <SIDE_WIN>
+      <AllowOptions val="Y"/>
+      <AllowQuery val="Y"/>
+      <AllowModify val="N"/>
+      <AllowCreate val="Y"/>
+      <AllowDelete val="Y"/>
+      <AllowLocate val="Y"/>
+      <AllowRange val="Y"/>
+      <AllowIndexChange val="Y"/>
+      <AllowSorting val="Y"/>
+      <AllowIOFiles val="Y"/>
+      <RecordCycle val="Y"/>
+      <AllowEvents val="Y"/>
+      <AllowIndexOptimization val="Y"/>
+      <AllowLocationInQuery val="Y"/>
+      <AllowPrintingData val="N"/>
+    </SIDE_WIN>
+    <WIN>
+      <OpenTaskWindow val="Y"/>
+      <CloseTaskWindow val="Y"/>
+      <ForegroundWindow val="Y"/>
+      <FlipFld val="N"/>
+      <RefreshTaskWindow ReturnValue="N"/>
+    </WIN>
+    <BOX>
+      <Direction val="V"/>
+    </BOX>
+  </Information>
+
+  <TaskLogic>
+    <LogicUnit propagate="78">
+      <Level val="R"/>
+      <Type val="M"/>
+      <Scope val="S"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <_TotalVariabls val="2"/>
+      <Event>
+        <EventType val="S"/>
+      </Event>
+      <LogicLines>
+        <LogicLine>
+          <DATAVIEW_SRC IDX="1" Type="M">
+            <Condition val="N"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </DATAVIEW_SRC>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="A">
+            <Column val="1"/>
+            <Type val="R"/>
+            <ExposedToRoute val="N"/>
+            <IsParameter val="N"/>
+            <_DitIndexForToolkit val="2"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+        <LogicLine>
+          <Select Name="B">
+            <Column val="2"/>
+            <Type val="R"/>
+            <ExposedToRoute val="N"/>
+            <IsParameter val="N"/>
+            <_DitIndexForToolkit val="4"/>
+            <DIFF_UPDATE val="T"/>
+            <Condition val="Y"/>
+            <Modifier val="S"/>
+            <Direction val="C"/>
+          </Select>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+    <LogicUnit propagate="78">
+      <Level val="H"/>
+      <Type val="U"/>
+      <Scope val="T"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <Event>
+        <EventType val="U"/>
+        <PublicObject comp="-1" obj="1"/>
+      </Event>
+      <TXT val="okbutn"/>
+      <LogicLines>
+        <LogicLine>
+          <BLOCK EndBlock="6" EndBlockSegment="6" Type="I">
+            <Condition Exp="1"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </BLOCK>
+        </LogicLine>
+        <LogicLine>
+          <CallTask>
+            <OperationType val="P"/>
+            <Event>
+              <EventType val="N"/>
+            </Event>
+            <TaskID obj="64"/>
+            <Lock val="N"/>
+            <Wait val="Y"/>
+            <SyncData val="N"/>
+            <RetainFocus val="N"/>
+            <Condition Exp="1"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </CallTask>
+        </LogicLine>
+        <LogicLine>
+          <END_BLK/>
+        </LogicLine>
+        <LogicLine>
+          <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="'Invalid password'" TitleTxt="Warning" VR_DISP="B">
+            <AppendToErrorLog val="N"/>
+            <Condition Exp="3"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </STP>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+  </TaskLogic>
+
+  <TaskForms>
+    <FormEntry _last_test_id="5">
+      <PropertyList model="FORM_GUI0">
+        <Width id="23" val="718"/>
+        <Height id="24" val="348"/>
+        <Wallpaper id="42" val="C:\Users\Vibhak\Desktop\IMG1\p3.jpg"/>
+        <_Comment id="218"/>
+        <FormName id="311" valUnicode="Login_admin"/>
+        <WallpaperStyle id="448" val="4"/>
+      </PropertyList>
+      <Control _test_id="2">
+        <PropertyList model="CTRL_GUI0_STATIC">
+          <Text id="19" valUnicode="Login"/>
+          <X id="21" val="253"/>
+          <Y id="22" val="103"/>
+          <Width id="23" val="42"/>
+          <Height id="24" val="12"/>
+          <Font id="50" val="7"/>
+          <Style id="63" val="7"/>
+          <EnableRTF id="69"/>
+          <_Orientation id="143"/>
+        </PropertyList>
+      </Control>
+      <Control PDOD="1" _test_id="1">
+        <PropertyList model="CTRL_GUI0_EDIT">
+          <Model ID="MODEL_GUI_INT" id="1">
+            <Var Column="1"/>
+          </Model>
+          <X id="21" val="326"/>
+          <Y id="22" val="103"/>
+          <Width id="23" val="118"/>
+          <Height id="24" val="16"/>
+          <Data Column="A" id="43"/>
+          <ControlName id="46" val="Login"/>
+          <Font id="50" val="7"/>
+          <_Orientation id="143"/>
+          <TabOrder id="314" val="1"/>
+        </PropertyList>
+      </Control>
+      <Control _test_id="4">
+        <PropertyList model="CTRL_GUI0_STATIC">
+          <Text id="19" valUnicode="password"/>
+          <X id="21" val="253"/>
+          <Y id="22" val="145"/>
+          <Width id="23" val="66"/>
+          <Height id="24" val="12"/>
+          <Font id="50" val="7"/>
+          <Style id="63" val="7"/>
+          <EnableRTF id="69"/>
+          <_Orientation id="143"/>
+        </PropertyList>
+      </Control>
+      <Control PDOD="1" _test_id="3">
+        <PropertyList model="CTRL_GUI0_EDIT">
+          <Model ID="MODEL_GUI_INT" id="1">
+            <Var Column="2"/>
+          </Model>
+          <X id="21" val="342"/>
+          <Y id="22" val="145"/>
+          <Width id="23" val="102"/>
+          <Height id="24" val="17"/>
+          <Data Column="B" id="43"/>
+          <ControlName id="46" val="password"/>
+          <Font id="50" val="7"/>
+          <_Orientation id="143"/>
+          <TabOrder id="314" val="2"/>
+        </PropertyList>
+      </Control>
+      <Control PDOD="128" _test_id="5">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <X id="21" val="253"/>
+          <Y id="22" val="209"/>
+          <Width id="23" val="168"/>
+          <Height id="24" val="40"/>
+          <ControlName id="46" val="okbutn"/>
+          <Format id="82" valUnicode="Login"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <PublicObject comp="-1" obj="1"/>
+          </RaiseEvent>
+          <TabOrder id="314" val="3"/>
+        </PropertyList>
+      </Control>
+    </FormEntry>
+  </TaskForms>
+
+  <Expressions>
+    <Expression>
+      <ExpSyntax val="A=B"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="'Invalid password'"/>
+      <ExpAttribute val="A"/>
+    </Expression>
+    <Expression>
+      <ExpSyntax val="A&lt;>B"/>
+      <ExpAttribute val="B"/>
+    </Expression>
+  </Expressions>
+
+  <EVNT DESC="okevent" FORCE_EXIT="N">
+    <Event>
+      <EventType val="I"/>
+      <InternalEventID val="18"/>
+    </Event>
+  </EVNT>
+
+</Task>
+</Programs>
+</ProgramsRepository>
+
+</Application>

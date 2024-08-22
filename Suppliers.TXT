@@ -1,0 +1,7 @@
+    1 Jai                  Pune                                  1                 12 12345
+    2 Shri                 Alandi                                6                 72 63273
+    3 Ram                  Shegaon                               2                 14 56788
+    4 Sai                  Delhi                                 3                 18 34546
+    5 Ram                  Goa                                   2                 54 74584
+    6 Hina                 Delhi                                 3                 60 53637
+    7 Shyam                Alandi                                6                 90 13254

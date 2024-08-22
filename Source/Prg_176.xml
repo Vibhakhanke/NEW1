@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14090.00"/>
+    <WithIsn val="Y"/>
+    <_InternalTask val="N"/>
+    <IsRoot val="N"/>
+    <InIndex val="N"/>
+    <UniqueISNConvState val="12"/>
+  </Header>
+
+  <ProgramsRepository>
+    <Programs>
+      <Task MainProgram="N">
+        <Header Description="xpa_Readmore" ISN_2="1" LastIsn="1" id="176">
+          <LastModified _date="739041" _time="41278" date="04/06/2024" time="11:27:58"/>
+          <ExecutionRight comp="-1"/>
+          <Resident val="N"/>
+          <SQL val="N"/>
+          <ReturnValue>
+            <ReturnValueAttr/>
+            <ParametersAttributes/>
+          </ReturnValue>
+          <SqlWhereExist val="N"/>
+          <TaskType val="O"/>
+          <External val="N"/>
+          <Offline val="N"/>
+          <FormType val="N"/>
+          <DotNetObjectExists val="N"/>
+        </Header>
+        <Resource>
+          <Columns/>
+        </Resource>
+        <Information>
+          <Key>
+            <Mode val="N"/>
+          </Key>
+          <DB comp="-1"/>
+          <Sort>
+            <CLS val="A"/>
+          </Sort>
+          <ForceRecordDelete DEL="N"/>
+          <EndTaskCondition val="N"/>
+          <EvaluateEndCondition val="B"/>
+          <InitialMode val="E"/>
+          <Locate Direction="A"/>
+          <Range Direction="A"/>
+          <VarRange/>
+          <TaskProperties>
+            <SelectionTable val="N"/>
+            <ConfirmUpdate CNFU="N"/>
+            <ConfirmCancel val="N"/>
+            <ErrorStrategy val="R"/>
+            <LockingStrategy val="M"/>
+            <CacheStrategy val="D"/>
+            <ForceRecordSuffix val="N"/>
+            <TransactionMode val="D"/>
+            <TransactionBegin val="P"/>
+            <PreloadView val="N"/>
+            <AllowEmptyDataview val="Y"/>
+            <KeepCreatedContext val="N"/>
+          </TaskProperties>
+          <SIDE_WIN>
+            <AllowOptions val="Y"/>
+            <AllowQuery val="Y"/>
+            <AllowModify val="Y"/>
+            <AllowCreate val="Y"/>
+            <AllowDelete val="Y"/>
+            <AllowLocate val="Y"/>
+            <AllowRange val="Y"/>
+            <AllowIndexChange val="Y"/>
+            <AllowSorting val="Y"/>
+            <AllowIOFiles val="Y"/>
+            <RecordCycle val="Y"/>
+            <AllowEvents val="Y"/>
+            <AllowIndexOptimization val="Y"/>
+            <AllowLocationInQuery val="Y"/>
+            <AllowPrintingData val="N"/>
+          </SIDE_WIN>
+          <WIN>
+            <OpenTaskWindow val="Y"/>
+            <CloseTaskWindow val="Y"/>
+            <ForegroundWindow val="Y"/>
+            <FlipFld val="N"/>
+            <RefreshTaskWindow ReturnValue="N"/>
+          </WIN>
+          <BOX>
+            <Direction val="V"/>
+          </BOX>
+        </Information>
+        <TaskLogic>
+          <LogicUnit id="1" propagate="78">
+            <Level val="R"/>
+            <Type val="M"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <LogicLines>
+              <LogicLine>
+                <DATAVIEW_SRC FlowIsn="1" Type="M">
+                  <Condition val="N"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </DATAVIEW_SRC>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+        </TaskLogic>
+        <TaskForms>
+          <FormEntry _last_isn="49" _last_test_id="49" id="1">
+            <PropertyList model="FORM_GUI0">
+              <Y id="22"/>
+              <Width id="23" val="977"/>
+              <Height id="24" val="2440"/>
+              <MinimizeButton id="28"/>
+              <MaximizeButton id="29"/>
+              <Wallpaper id="42" val="C:\Users\Vibhak\Desktop\IMG1\12.jpg"/>
+              <BorderStyle id="64" val="3"/>
+              <_Comment id="218"/>
+              <FormName id="311" valUnicode="xpa_Readmore"/>
+              <WindowType id="358" val="9"/>
+              <WallpaperStyle id="448" val="4"/>
+            </PropertyList>
+            <Control _test_id="49" id="49">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <Width id="23" val="52"/>
+                <Height id="24" val="38"/>
+                <DefaultImageFile id="88" val="C:\Users\Vibhak\Desktop\IMG1\image9.jpg"/>
+                <ImageStyle id="89" val="4"/>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="1" id="1">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Single Business Logic, Deployed Everywhere."/>
+                <X id="21" val="250"/>
+                <Y id="22" val="17"/>
+                <Width id="23" val="480"/>
+                <Height id="24" val="27"/>
+                <Font id="50" val="20"/>
+                <Color id="51" val="6"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="2" id="2">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Our Magic xpa solution facilitates the swift development of cross-platform business applications for desktop,"/>
+                <X id="21" val="170"/>
+                <Y id="22" val="60"/>
+                <Width id="23" val="660"/>
+                <Height id="24" val="24"/>
+                <Font id="50" val="11"/>
+                <Color id="51" val="6"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="3" id="3">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode=" web, and mobile,allowing you to promptly seize new business opportunities as they arise."/>
+                <X id="21" val="208"/>
+                <Y id="22" val="84"/>
+                <Width id="23" val="554"/>
+                <Height id="24" val="20"/>
+                <Font id="50" val="11"/>
+                <Color id="51" val="6"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="4" id="4">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19"/>
+                <X id="21" val="162"/>
+                <Y id="22" val="116"/>
+                <Width id="23" val="202"/>
+                <Height id="24" val="141"/>
+                <Font id="50" val="21"/>
+                <Style id="63" val="6"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="8" id="8">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19"/>
+                <X id="21" val="162"/>
+                <Y id="22" val="116"/>
+                <Width id="23" val="202"/>
+                <Height id="24" val="45"/>
+                <Color id="51" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="5" id="5">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19"/>
+                <X id="21" val="402"/>
+                <Y id="22" val="116"/>
+                <Width id="23" val="202"/>
+                <Height id="24" val="141"/>
+                <Font id="50" val="21"/>
+                <Style id="63" val="6"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="9" id="9">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19"/>
+                <X id="21" val="402"/>
+                <Y id="22" val="116"/>
+                <Width id="23" val="202"/>
+                <Height id="24" val="45"/>
+                <Color id="51" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="6" id="6">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19"/>
+                <X id="21" val="627"/>
+                <Y id="22" val="116"/>
+                <Width id="23" val="202"/>
+                <Height id="24" val="141"/>
+                <Style id="63" val="6"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="10" id="10">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19"/>
+                <X id="21" val="627"/>
+                <Y id="22" val="116"/>
+                <Width id="23" val="202"/>
+                <Height id="24" val="45"/>
+                <Color id="51" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="7" id="7">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Fast Time-to-Market"/>
+                <X id="21" val="183"/>
+                <Y id="22" val="130"/>
+                <Width id="23" val="158"/>
+                <Height id="24" val="20"/>
+                <Font id="50" val="7"/>
+                <Color id="51" val="6"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="11" id="11">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Enterprise-grade"/>
+                <X id="21" val="410"/>
+                <Y id="22" val="130"/>
+                <Width id="23" val="170"/>
+                <Height id="24" val="20"/>
+                <Font id="50" val="7"/>
+                <Color id="51" val="6"/>
+                <Style id="63" val="7"/>
+                <HorizontalAlignment id="65" val="2"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="12" id="12">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Future-proof"/>
+                <X id="21" val="650"/>
+                <Y id="22" val="130"/>
+                <Width id="23" val="159"/>
+                <Height id="24" val="20"/>
+                <Font id="50" val="7"/>
+                <Color id="51" val="6"/>
+                <Style id="63" val="7"/>
+                <HorizontalAlignment id="65" val="2"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="13" id="13">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Enables rapid app development and"/>
+                <X id="21" val="183"/>
+                <Y id="22" val="179"/>
+                <Width id="23" val="158"/>
+                <Height id="24" val="12"/>
+                <Font id="50" val="21"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="16" id="16">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Fueled by an In-Memory Data Grid (IMDG),"/>
+                <X id="21" val="410"/>
+                <Y id="22" val="179"/>
+                <Width id="23" val="185"/>
+                <Height id="24" val="12"/>
+                <Font id="50" val="21"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="24" id="24">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Metadata-driven approach ensures your"/>
+                <X id="21" val="638"/>
+                <Y id="22" val="179"/>
+                <Width id="23" val="185"/>
+                <Height id="24" val="12"/>
+                <Font id="50" val="21"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="14" id="14">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="delivery through its low-code platform,"/>
+                <X id="21" val="183"/>
+                <Y id="22" val="202"/>
+                <Width id="23" val="158"/>
+                <Height id="24" val="13"/>
+                <Font id="50" val="21"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="18" id="18">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="enables you to create high-performance,"/>
+                <X id="21" val="414"/>
+                <Y id="22" val="202"/>
+                <Width id="23" val="180"/>
+                <Height id="24" val="12"/>
+                <Font id="50" val="21"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="23" id="23">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="your apps stay current with technological"/>
+                <X id="21" val="638"/>
+                <Y id="22" val="202"/>
+                <Width id="23" val="185"/>
+                <Height id="24" val="12"/>
+                <Font id="50" val="21"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="15" id="15">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="and component-based architecture."/>
+                <X id="21" val="183"/>
+                <Y id="22" val="223"/>
+                <Width id="23" val="158"/>
+                <Height id="24" val="15"/>
+                <Font id="50" val="21"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="17" id="17">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="and scalable apps effortlessly."/>
+                <X id="21" val="426"/>
+                <Y id="22" val="223"/>
+                <Width id="23" val="164"/>
+                <Height id="24" val="12"/>
+                <Font id="50" val="21"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="22" id="22">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="eliminating need for redevelopment."/>
+                <X id="21" val="638"/>
+                <Y id="22" val="226"/>
+                <Width id="23" val="185"/>
+                <Height id="24" val="12"/>
+                <Font id="50" val="21"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="26" id="26">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Develop. Design. Deploy. At the speed of Magic."/>
+                <X id="21" val="222"/>
+                <Y id="22" val="281"/>
+                <Width id="23" val="523"/>
+                <Height id="24" val="27"/>
+                <Font id="50" val="20"/>
+                <Color id="51" val="6"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="28" id="28">
+              <PropertyList model="CTRL_GUI0_LINE">
+                <X1 id="21" val="274"/>
+                <Y1 id="22" val="319"/>
+                <X2 id="23" val="436"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="31" id="31">
+              <PropertyList model="CTRL_GUI0_LINE">
+                <X1 id="21" val="712"/>
+                <Y1 id="22" val="321"/>
+                <Y2 id="24" val="24"/>
+                <_StaticType id="70" val="8"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="29" id="29">
+              <PropertyList model="CTRL_GUI0_LINE">
+                <X1 id="21" val="267"/>
+                <Y1 id="22" val="322"/>
+                <Y2 id="24" val="24"/>
+                <_StaticType id="70" val="8"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="32" id="32">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode=" Reusability"/>
+                <X id="21" val="278"/>
+                <Y id="22" val="325"/>
+                <Width id="23" val="105"/>
+                <Height id="24" val="18"/>
+                <Font id="50" val="7"/>
+                <Color id="51" val="6"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="34" id="34">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode=" Agile Applications"/>
+                <X id="21" val="394"/>
+                <Y id="22" val="325"/>
+                <Width id="23" val="158"/>
+                <Height id="24" val="18"/>
+                <Font id="50" val="7"/>
+                <Color id="51" val="6"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="33" id="33">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode=" Visual Interface"/>
+                <X id="21" val="566"/>
+                <Y id="22" val="325"/>
+                <Width id="23" val="139"/>
+                <Height id="24" val="18"/>
+                <Font id="50" val="7"/>
+                <Color id="51" val="6"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="27" id="27">
+              <PropertyList model="CTRL_GUI0_LINE">
+                <X1 id="21" val="276"/>
+                <Y1 id="22" val="347"/>
+                <X2 id="23" val="435"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="35" id="35">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="170"/>
+                <Y id="22" val="369"/>
+                <Width id="23" val="626"/>
+                <Height id="24" val="221"/>
+                <DefaultImageFile id="88" val="C:\Users\Vibhak\Desktop\IMG1\reus.png"/>
+                <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="38" id="38">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode=" Streamline your app development by easily creating elements once and"/>
+                <X id="21" val="222"/>
+                <Y id="22" val="601"/>
+                <Width id="23" val="498"/>
+                <Height id="24" val="25"/>
+                <Font id="50" val="5"/>
+                <Color id="51" val="6"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="39" id="39">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode=" reusing them, dramatically cutting down your dev time and eliminating duplicate work."/>
+                <X id="21" val="183"/>
+                <Y id="22" val="621"/>
+                <Width id="23" val="579"/>
+                <Height id="24" val="22"/>
+                <Font id="50" val="5"/>
+                <Color id="51" val="6"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="45" id="45">
+              <PropertyList model="CTRL_GUI0_IMAGE">
+                <X id="21" val="170"/>
+                <Y id="22" val="653"/>
+                <Width id="23" val="640"/>
+                <Height id="24" val="238"/>
+                <DefaultImageFile id="88" val="C:\Users\Vibhak\Desktop\IMG1\visu.png"/>
+                <TabOrder id="314" val="3"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="47" id="47">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode=" Our code-free, drag-and-drop interface gives you a visual development and"/>
+                <X id="21" val="222"/>
+                <Y id="22" val="901"/>
+                <Width id="23" val="514"/>
+                <Height id="24" val="21"/>
+                <Font id="50" val="5"/>
+                <Color id="51" val="6"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="48" id="48">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode=" deployment environment, letting even non-tech users quickly create powerful apps."/>
+                <X id="21" val="204"/>
+                <Y id="22" val="925"/>
+                <Width id="23" val="558"/>
+                <Height id="24" val="21"/>
+                <Font id="50" val="5"/>
+                <Color id="51" val="6"/>
+                <Style id="63" val="7"/>
+                <EnableRTF id="69"/>
+                <_Orientation id="143"/>
+              </PropertyList>
+            </Control>
+          </FormEntry>
+        </TaskForms>
+      </Task>
+    </Programs>
+  </ProgramsRepository>
+
+</Application>

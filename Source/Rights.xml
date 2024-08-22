@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14090.00"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="10"/>
+    <LastIsnFolder val="0"/>
+  </Header>
+
+  <RightsRepository>
+    <Rights>
+      <Right id="7" name="exit">
+        <PublicRight val="Y"/>
+        <Key val="exit"/>
+      </Right>
+      <Right id="8" name="selectproduct">
+        <PublicRight val="Y"/>
+        <Key val="selectprod"/>
+      </Right>
+      <Right id="9" name="image_demo">
+        <PublicRight val="Y"/>
+        <Key val="image"/>
+        <PublicName val="img1"/>
+      </Right>
+      <Right id="10" name="parent_tree">
+        <PublicRight val="Y"/>
+        <Key val="parent"/>
+        <PublicName val="parent1"/>
+      </Right>
+    </Rights>
+  </RightsRepository>
+
+</Application>

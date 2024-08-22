@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14090.00"/>
+    <APPLICATION val="N"/>
+    <WithIsn val="N"/>
+    <WITH_MODELS val="N"/>
+    <MAIN_PRG_VARS val="0"/>
+    <MAIN_PRG_DSPS val="1"/>
+    <Arguments END="82" START="82"/>
+  </Header>
+
+
+
+<ProgramsRepository>
+<RepositoryProperties>
+</RepositoryProperties>
+<Programs>
+
+<Task MainProgram="N">
+
+  <Header Description="user__loginReg21">
+    <LastModified _date="739009" _time="62028" date="03/05/2024" time="17:13:48"/>
+    <ExecutionRight/>
+    <Resident val="N"/>
+    <SQL val="N"/>
+    <ReturnValue>
+      <ReturnValueAttr/>
+      <ParametersAttributes/>
+    </ReturnValue>
+    <SqlWhereExist val="N"/>
+    <TaskType val="O"/>
+    <External val="N"/>
+    <Offline val="N"/>
+    <FormType val="N"/>
+    <DotNetObjectExists val="N"/>
+  </Header>
+
+  <Resource>
+    <Columns/>
+  </Resource>
+
+  <Information>
+    <Key>
+      <Mode val="N"/>
+    </Key>
+    <DB/>
+    <Sort>
+      <CLS val="A"/>
+    </Sort>
+    <ForceRecordDelete DEL="N"/>
+    <EndTaskCondition val="N"/>
+    <EvaluateEndCondition val="B"/>
+    <InitialMode val="M"/>
+    <Locate Direction="A"/>
+    <Range Direction="A"/>
+    <TaskProperties>
+      <SelectionTable val="N"/>
+      <ConfirmUpdate CNFU="N"/>
+      <ConfirmCancel val="N"/>
+      <ErrorStrategy val="R"/>
+      <LockingStrategy val="M"/>
+      <CacheStrategy val="D"/>
+      <ForceRecordSuffix val="N"/>
+      <TransactionMode val="D"/>
+      <TransactionBegin val="P"/>
+      <PreloadView val="N"/>
+      <AllowEmptyDataview val="Y"/>
+      <KeepCreatedContext val="N"/>
+    </TaskProperties>
+    <SIDE_WIN>
+      <AllowOptions val="Y"/>
+      <AllowQuery val="Y"/>
+      <AllowModify val="Y"/>
+      <AllowCreate val="Y"/>
+      <AllowDelete val="Y"/>
+      <AllowLocate val="Y"/>
+      <AllowRange val="Y"/>
+      <AllowIndexChange val="Y"/>
+      <AllowSorting val="Y"/>
+      <AllowIOFiles val="Y"/>
+      <RecordCycle val="Y"/>
+      <AllowEvents val="Y"/>
+      <AllowIndexOptimization val="Y"/>
+      <AllowLocationInQuery val="Y"/>
+      <AllowPrintingData val="N"/>
+    </SIDE_WIN>
+    <WIN>
+      <OpenTaskWindow val="Y"/>
+      <CloseTaskWindow val="Y"/>
+      <ForegroundWindow val="Y"/>
+      <FlipFld val="N"/>
+      <RefreshTaskWindow ReturnValue="N"/>
+    </WIN>
+    <BOX>
+      <Direction val="V"/>
+    </BOX>
+  </Information>
+
+  <TaskLogic>
+    <LogicUnit propagate="78">
+      <Level val="R"/>
+      <Type val="M"/>
+      <Scope val="S"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <Event>
+        <EventType val="S"/>
+      </Event>
+      <LogicLines>
+        <LogicLine>
+          <DATAVIEW_SRC Type="M">
+            <Condition val="N"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </DATAVIEW_SRC>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+    <LogicUnit propagate="78">
+      <Level val="H"/>
+      <Type val="U"/>
+      <Scope val="T"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <Event>
+        <EventType val="U"/>
+        <PublicObject comp="-1" obj="1"/>
+      </Event>
+      <TXT val="loginbutn"/>
+      <LogicLines>
+        <LogicLine>
+          <CallTask>
+            <OperationType val="P"/>
+            <Event>
+              <EventType val="N"/>
+            </Event>
+            <TaskID obj="83"/>
+            <Lock val="N"/>
+            <Wait val="Y"/>
+            <SyncData val="N"/>
+            <RetainFocus val="N"/>
+            <Condition val="Y"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </CallTask>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+    <LogicUnit propagate="78">
+      <Level val="H"/>
+      <Type val="U"/>
+      <Scope val="T"/>
+      <EngineDirective val="S"/>
+      <ShowMessage val="Y"/>
+      <Condition val="89"/>
+      <Event>
+        <EventType val="U"/>
+        <PublicObject comp="-1" obj="2"/>
+      </Event>
+      <TXT val="regbut"/>
+      <LogicLines>
+        <LogicLine>
+          <CallTask>
+            <OperationType val="P"/>
+            <Event>
+              <EventType val="N"/>
+            </Event>
+            <TaskID obj="81"/>
+            <Lock val="N"/>
+            <Wait val="Y"/>
+            <SyncData val="N"/>
+            <RetainFocus val="N"/>
+            <Condition val="Y"/>
+            <Modifier val="B"/>
+            <Direction val="C"/>
+          </CallTask>
+        </LogicLine>
+      </LogicLines>
+    </LogicUnit>
+  </TaskLogic>
+
+  <TaskForms>
+    <FormEntry _last_test_id="6">
+      <PropertyList model="FORM_GUI0">
+        <Width id="23" val="722"/>
+        <Height id="24" val="349"/>
+        <Wallpaper id="42" val="C:\Users\Vibhak\Desktop\IMG1\colro1.jpg"/>
+        <_Comment id="218"/>
+        <FormName id="311" valUnicode="user__loginReg21"/>
+        <WallpaperStyle id="448" val="4"/>
+      </PropertyList>
+      <Control _test_id="6">
+        <PropertyList model="CTRL_GUI0_IMAGE">
+          <X id="21" val="162"/>
+          <Y id="22" val="39"/>
+          <Width id="23" val="181"/>
+          <Height id="24" val="137"/>
+          <DefaultImageFile id="88" val="C:\Users\Vibhak\Desktop\IMG1\u1.png"/>
+          <TabOrder id="314" val="1"/>
+        </PropertyList>
+      </Control>
+      <Control _test_id="3">
+        <PropertyList model="CTRL_GUI0_IMAGE">
+          <X id="21" val="410"/>
+          <Y id="22" val="39"/>
+          <Width id="23" val="178"/>
+          <Height id="24" val="137"/>
+          <DefaultImageFile id="88" val="C:\Users\Vibhak\Desktop\IMG1\download (2)1.png"/>
+          <TabOrder id="314" val="2"/>
+        </PropertyList>
+      </Control>
+      <Control PDOD="128" _test_id="1">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <X id="21" val="169"/>
+          <Y id="22" val="200"/>
+          <Width id="23" val="151"/>
+          <Height id="24" val="59"/>
+          <ControlName id="46" val="loginbutn"/>
+          <Font id="50" val="14"/>
+          <Color id="51" val="8"/>
+          <Format id="82" valUnicode="Login"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <PublicObject comp="-1" obj="1"/>
+          </RaiseEvent>
+          <TabOrder id="314" val="3"/>
+        </PropertyList>
+      </Control>
+      <Control PDOD="128" _test_id="2">
+        <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+          <X id="21" val="427"/>
+          <Y id="22" val="200"/>
+          <Width id="23" val="151"/>
+          <Height id="24" val="55"/>
+          <ControlName id="46" val="regbut"/>
+          <Font id="50" val="14"/>
+          <Color id="51" val="8"/>
+          <Format id="82" valUnicode="Register"/>
+          <RaiseEvent id="234">
+            <EventType val="U"/>
+            <PublicObject comp="-1" obj="2"/>
+          </RaiseEvent>
+          <TabOrder id="314" val="4"/>
+        </PropertyList>
+      </Control>
+    </FormEntry>
+  </TaskForms>
+
+  <EVNT DESC="loginEvent" FORCE_EXIT="N">
+    <Event>
+      <EventType val="I"/>
+      <InternalEventID val="18"/>
+    </Event>
+  </EVNT>
+
+  <EVNT DESC="RegisterEvent" FORCE_EXIT="N">
+    <Event>
+      <EventType val="I"/>
+      <InternalEventID val="18"/>
+    </Event>
+  </EVNT>
+
+</Task>
+</Programs>
+</ProgramsRepository>
+
+</Application>

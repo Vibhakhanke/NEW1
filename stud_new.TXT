@@ -1,0 +1,7 @@
+    1   101 aaa         physics
+    1   102 bbbb        maths
+    3   103 cccc        science
+    4   104 dddd        science
+    5   105 eeee        EVS
+    6   106 ffffff      maths
+    7   107 gggg        maths

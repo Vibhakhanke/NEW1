@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14090.00"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="98"/>
+    <LastIsnFolder val="1"/>
+  </Header>
+
+  <DataRepositoryProperties/>
+
+  <DataSourceRepository>
+    <DataObjects>
+      <DataObject PhysicalName="Customer_Data" Public="cust1" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="2" length="6575" name="Customer_Data" offset="228"/>
+      <DataObject PhysicalName="NewPrdData" Public="newprg1" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="3" length="5749" name="NewPrgData" offset="6804"/>
+      <DataObject PhysicalName="Suppliers1" Public="sup1" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="4" length="5338" name="Suppliers1_import" offset="12554"/>
+      <DataObject PhysicalName="Suppliers" Public="sup" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="46" length="5319" name="Suppliers" offset="17893"/>
+      <DataObject PhysicalName="products11" Public="p11" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="23" length="3928" name="products11" offset="23213"/>
+      <DataObject PhysicalName="products22" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="22" length="3915" name="products22_d" offset="27142"/>
+      <DataObject PhysicalName="products33" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="24" length="3911" name="products33" offset="31058"/>
+      <DataObject PhysicalName="products44" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="37" length="3911" name="products44" offset="34970"/>
+      <DataObject PhysicalName="products" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="36" length="3915" name="products" offset="38882"/>
+      <DataObject PhysicalName="ModelEx" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="5" length="1539" name="ModelEx" offset="42798"/>
+      <DataObject PhysicalName="Labels_data" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="6" length="4766" name="Labels_data" offset="44338"/>
+      <DataObject PhysicalName="Dept" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="7" length="2600" name="Dept" offset="49105"/>
+      <DataObject PhysicalName="Emp" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="8" length="3856" name="Emp" offset="51706"/>
+      <DataObject PhysicalName="orderTables" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="42" length="4550" name="orderTables" offset="55563"/>
+      <DataObject PhysicalName="orderlines2" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="14" length="3985" name="orderlines2" offset="60114"/>
+      <DataObject PhysicalName="orderlines" Resident="N" UniqueISNConvState="12" data_source="GettingStarted" id="16" length="4280" name="orderLines_1" offset="64100"/>
+      <DataObject PhysicalName="customerTables" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="11" length="4905" name="customerTables" offset="68381"/>
+      <DataObject PhysicalName="_im" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="47" length="2245" name="country_new_import" offset="73287"/>
+      <DataObject PhysicalName="country_new" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="48" length="2244" name="country_new" offset="75533"/>
+      <DataObject PhysicalName="---Main_project" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="75" length="475" name="---Main project" offset="77778"/>
+      <DataObject PhysicalName="cityNew" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="33" length="3018" name="cityNew" offset="78254"/>
+      <DataObject PhysicalName="clg_new" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="43" length="2037" name="clg_new" offset="81273"/>
+      <DataObject PhysicalName="stud_new" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="44" length="3756" name="stud_new" offset="83311"/>
+      <DataObject PhysicalName="stud_new1" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="45" length="3768" name="stud_new_import" offset="87068"/>
+      <DataObject PhysicalName="Academics_stud" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="49" length="4527" name="Academics_stud" offset="90837"/>
+      <DataObject PhysicalName="support1" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="50" length="6883" name="supportLead1" offset="95365"/>
+      <DataObject PhysicalName="SuportInterns" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="51" length="4936" name="SuportInterns" offset="102249"/>
+      <DataObject PhysicalName="new_intern" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="53" length="4934" name="new_intern" offset="107186"/>
+      <DataObject PhysicalName="college_combo1" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="55" length="2065" name="degree_combo1" offset="112121"/>
+      <DataObject PhysicalName="Suporters" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="56" length="463" name="Suporters" offset="114187"/>
+      <DataObject PhysicalName="Project_names" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="57" length="2079" name="Project_names" offset="114651"/>
+      <DataObject PhysicalName="Emp_name_project" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="67" length="3859" name="Emp_name_project" offset="116731"/>
+      <DataObject PhysicalName="project_report_emp1" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="95" length="4880" name="project_report_emp1" offset="120591"/>
+      <DataObject PhysicalName="Employeee_dummyList" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="59" length="3994" name="Employeee_dummyList" offset="125472"/>
+      <DataObject PhysicalName="Employee_dummlist_many1" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="68" length="5206" name="Employee_dummlist_many1" offset="129467"/>
+      <DataObject PhysicalName="Employee_dummlist_many12extra" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="84" length="8308" name="employee_dummy_12Extra_______" offset="134674"/>
+      <DataObject PhysicalName="a" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="86" length="8276" name="employee_dummy_12Extraa" offset="142983"/>
+      <DataObject PhysicalName="canteen" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="60" length="3135" name="canteen" offset="151260"/>
+      <DataObject PhysicalName="Days_name" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="62" length="2027" name="Days_name" offset="154396"/>
+      <DataObject PhysicalName="Login_admin" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="63" length="2324" name="Login_admin" offset="156424"/>
+      <DataObject PhysicalName="register_user" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="64" length="4416" name="register_user" offset="158749"/>
+      <DataObject PhysicalName="user_info1" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="88" length="9881" name="user_info1" offset="163166"/>
+      <DataObject PhysicalName="Designation" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="69" length="2176" name="Designation" offset="173048"/>
+      <DataObject PhysicalName="leave" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="70" length="4893" name="leave" offset="175225"/>
+      <DataObject PhysicalName="martialstatus" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="71" length="2057" name="martialstatus" offset="180119"/>
+      <DataObject PhysicalName="cahrt_leave" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="72" length="2768" name="chart_leave" offset="182177"/>
+      <DataObject PhysicalName="projectStatus" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="74" length="2019" name="projectStatus" offset="184946"/>
+      <DataObject PhysicalName="typeleave" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="78" length="2175" name="typeofleave" offset="186966"/>
+      <DataObject PhysicalName="leavemanagement1" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="80" length="6794" name="leavemanagement" offset="189142"/>
+      <DataObject PhysicalName="leavemanagement1_new" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="92" length="6808" name="leavemanagement_new" offset="195937"/>
+      <DataObject PhysicalName="Leave_new" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="93" length="5653" name="leavemanagement_new1" offset="202746"/>
+      <DataObject PhysicalName="Login_user" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="91" length="2062" name="Login_user" offset="208400"/>
+      <DataObject PhysicalName="Chart_leave_emp" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="96" length="3226" name="Chart_leave_emp" offset="210463"/>
+      <DataObject PhysicalName="project_Emp" Resident="N" UniqueISNConvState="12" data_source="SQLite Database" id="98" length="4441" name="project_Emp" offset="213690"/>
+    </DataObjects>
+  </DataSourceRepository>
+
+  <LastModified val="31119824193265504"/>
+
+</Application>
